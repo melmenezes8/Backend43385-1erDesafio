@@ -1,3 +1,6 @@
+import fs from "fs";
+import utils from "./utils.js";
+
 class ProductManager {
     products;
     constructor() {
